@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
         mWebView.loadUrl("http://html5rocks.com/");
-        mWebView.setWebViewClient(new MyAppWebViewClient());
+        mWebView.setWebViewClient(new WebViewClient());
     }
 
     @Override
